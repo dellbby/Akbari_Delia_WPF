@@ -23,7 +23,38 @@ console.log(age);
 
 
 //Slice of Pie Part 1
-//number of slices per pizza - 10
-//number of people at the party - 50
+//number of slices per pizza - 50
+//number of people at the party - 10
 //number of pizzas ordered - 5
-var 
+var amount;
+amount = 50;
+var people;
+people = 10;
+//the amount of pizzas divided by the amount of people
+var pizzas = amount / people;
+console.log(pizzas);
+
+
+//Slice of Pie Part 2
+//Number of slices Sparky gets to eat (0, whoops)
+var amount;
+amount = 50;
+var people;
+people = 10;
+var leftovers = amount / people * 0
+console.log(leftovers);
+
+//Average Shopping Bill
+var shop1 = 87.00;
+var shop2 = 100.34;
+var shop3 = 60.56;
+var shop4 = 80.30;
+var shop5 = 30.00;
+var total = shop1 + shop2 + shop3 + shop4 + shop5;
+// the average is the sum of the items divided by the number of items
+var average = total / 5;
+console.log(average);
+
+//Discounts
+
+
