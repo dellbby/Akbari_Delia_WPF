@@ -1,13 +1,12 @@
 //JavaScript
 // Delia Akbari - May 14, 2014 - Expressions Personal
 
-//Calculating How many times I walk my dog in a week
-var perday;
-perday = 3;
-//i walk her 3 times a day
-var daysinweek;
-daysinweek = 7;
-var total = perday * daysinweek;
+//Array - Favorite Characters from The Vampire Diaries Show
+var characterNames = ["Elena", "Stephen", "Damon"]; //0,1,2,3
+
+characterNames[1] = "Elena"; // Index 1 is Elena
+characterNames[2] = "Stephen"; // index 2 is Stepen
+characterNames[3] = "Damon"; // index 3 is Damon
 
 
-console.log("I walk my dog a total of " +total+" times per week.");
+console.log("My favorite character from The Vampire Diaries is" +characterNames[2]+ "he is the best." );
