@@ -56,5 +56,25 @@ var average = total / 5;
 console.log(average);
 
 //Discounts
+//Original price: $10.00
+//Discount percentage: 5%
+//Item: Converse shoes
+
+var price;
+price = 10.00;
+var discount;
+discount = .05;
+var fix = price * discount;
+var total = price - fix;
+console.log(total)
+//Total with discount is 9.50
+
+var total;
+total = 9.50;
+var salesTax;
+salesTax = 2.30;
+var final = total + salesTax;
+console.log("Your Converse was originally $10.00, but after a 5% discount, it is now 9.50 without tax, and $11.80 with tax." + final);
+//Total with sales tax - 11.80
 
 
