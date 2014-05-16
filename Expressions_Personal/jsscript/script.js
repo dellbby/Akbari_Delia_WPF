@@ -9,4 +9,4 @@ characterNames[2] = "Stephen"; // index 2 is Stepen
 characterNames[3] = "Damon"; // index 3 is Damon
 
 
-console.log("My favorite character from The Vampire Diaries is" +characterNames[2]+ "he is the best." );
+console.log("My favorite character from The Vampire Diaries is " +characterNames[3]+ " .His brother in the show is " +characterNames[2]+ ". They are both in love with the same girl, whose name is " +characterNames[1]+ ". ");
