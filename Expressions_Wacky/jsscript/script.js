@@ -1,21 +1,13 @@
 //JavaScript
 // Delia Akbari - May 13, 2014 - Expressions - Wacky
 
-//Story with Strings
+//Story about me with Strings
 
 var firstName = "Delia"; //firstname 
 var lastName = "Akbari"; //lastname
 var dog = "Booboo"; //my dogs name
 var food = "Kabob"; // my favorite food
+var sport = "Basketball"; // my favorite sport
 
-console.log( " Hello! My name is "+firstName+  +lastName+ )
-
-
-
-var width = 5;
-var height =65;
-//width x height / 2 = area
-var area = width * height/2;
-//print out the output area
-console.log(area); 
+console.log( " Hello! My name is "+firstName+ " and my last name is "  +lastName+ ". I have a dog, her name is " +dog+ ". My favorite type of food is " +food+ ". I do not play sports, but if I did, I would play "+sport+ " because I am tall.")
 
