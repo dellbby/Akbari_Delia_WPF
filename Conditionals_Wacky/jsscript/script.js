@@ -1,11 +1,14 @@
 //JavaScript
-// Delia Akbari - May 14, 2014 - Expressions industry
+// Delia Akbari - May 21, 2014 -Conditionals - Wacky
+//What to do on a cruise ship, depending on your age!
+var kidAge = 10;
+var teenAge = 21;
 
-//Calculating How much I make in a week and in a month
-var perhour;
-perhour = 12;  //i make 12 per hour
-var hours;
-hours = 40; // I work 40 hours per week
-var total = perhour* hours;  // this code explains that my hours multiplied by the amount that I made equals how much I make per week.
-var monthly = total * 4;  // this code explains that the total amount I make per month is the total I make per week multiplied by 4. 
-console.log("I work a total of " +hours+ " hours per week. I make $"+perhour+ " per hour and make a total of $" +total+" per week. I also make $" +monthly+ " per month.");
+//if the person is old enough, they can go to the club, if not, they can go watch the Children's Show
+
+if(kidAge > teenAge) {
+	console.log ("You can go to the club!");
+}else{
+	//if you arent old enough, you go to the Children's show
+	console.log ("You can go to the Children's Show!);
+
