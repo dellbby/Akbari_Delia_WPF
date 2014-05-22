@@ -7,7 +7,7 @@ var poccketmoney = 250; //Amount of Money I have in my wallet
 var coworkerPocketMoney = 145; //Amount of money my coworker has
 
 if(ticketPriceForTwo < coworkerPocketMoney && coworkerPocketMoney > 400) {
-	console.log("We can buy the tickets! Pack your bags!")
+	console.log("We can buy the tickets! Pack your bags!") // if total is 400 or more, you can go
 }else{
 		console.log("No conference in Paris, sorry."); //If total is less than 400, you can't go
 }
