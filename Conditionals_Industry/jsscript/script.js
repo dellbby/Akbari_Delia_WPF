@@ -9,7 +9,7 @@ var coworkerPocketMoney = 145; //Amount of money my coworker has
 if(ticketPriceForTwo < coworkerPocketMoney && coworkerPocketMoney > 400) {
 	console.log("We can buy the tickets! Pack your bags!")
 }else{
-		console.log("No conference in Paris, sorry.");
+		console.log("No conference in Paris, sorry."); //If total is less than 400, you can't go
 }
 
 //
