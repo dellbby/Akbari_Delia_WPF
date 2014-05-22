@@ -1,5 +1,5 @@
 //JavaScript
-// Delia Akbari - May 21, 2014 -Conditionals - Wacky
+// Delia Akbari - May 21, 2014 - Conditionals - Wacky
 //What to do on a cruise ship, depending on your age!
 var kidAge = 10;
 var teenAge = 21;
