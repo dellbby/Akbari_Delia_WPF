@@ -2,7 +2,7 @@
 // Delia Akbari - May 21, 2014 - Conditional Industry
 //If we have enough money saved, me and my co-worker can fly to Paris for a conference.
 
-var ticketPriceForTwo = 400; 
+var ticketPriceForTwo = 400;  //Price for two tickets
 var poccketmoney = 250;
 var coworkerPocketMoney = 145;
 
