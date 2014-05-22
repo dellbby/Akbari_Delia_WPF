@@ -6,9 +6,9 @@ var teenAge = 21;
 
 //if the person is old enough, they can go to the club, if not, they can go watch the Children's Show
 
-if(kidAge > teenAge) {
+if(kidAge < teenAge) {
 	console.log ("You can go to the club!");
 }else{
 	//if you arent old enough, you go to the Children's show
-	console.log ("You can go to the Children's Show!);
-
+	console.log ("You can go to the Children's Show!");
+}
