@@ -12,5 +12,4 @@ if(ticketPriceForTwo < coworkerPocketMoney && coworkerPocketMoney > 400) {
 		console.log("No conference in Paris, sorry."); //If total is less than 400, you can't go
 }
 
-//
 
