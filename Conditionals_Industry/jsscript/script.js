@@ -7,7 +7,7 @@ var poccketmoney = 250;
 var coworkerPocketMoney = 145;
 
 if(ticketPriceForTwo < coworkerPocketMoney && coworkerPocketMoney > 400) {
-	console.log("We can buy the tickets!")
+	console.log("We can buy the tickets! Pack your bags!")
 }else{
 		console.log("No conference in Paris, sorry.");
 }
