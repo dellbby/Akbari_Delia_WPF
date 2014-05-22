@@ -5,4 +5,4 @@
 var photoshootWeather = 73;
 //if the weather is 73 or higher, I will do the photoshoot 
 
-(photoshootWeather) ? console.log ("You can have the photoshoot!") : console.log("You can't have the photoshoot :( );
+(photoshootWeather > 74) ? console.log ("You can have the photoshoot!") : console.log("You can't have the photoshoot :(" );
