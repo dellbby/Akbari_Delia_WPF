@@ -2,12 +2,13 @@
 // Delia Akbari - May 28, 2014 - Functions Worksheet
 
 //Calculate the Area of a Rectangle
-var width = 5;
-var height = 6;
-var area = calculateArea(width, height);
-console.log("It takes "++ " bee stings to kill ____ animal.");
+var victimsWeight = 5; //Weight of animal
+var numberOfStings = 8.666666667; //number of stings per pound
+var area = calculateStings(victimsWeight, numberOfStings);
 
-function calculateArea(w, h )
+console.log("It takes " +calculateStings+ " bee stings to kill ____ animal.");
+
+function calculateStings(w, s )
 {
-     return w *h;
+     return w *s;
 }
