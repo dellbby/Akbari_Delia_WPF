@@ -22,13 +22,26 @@ funcName (argument1, argument2);
 function funcName (parameter1, parameter2) {
 	//code the function runs 
 }
+////////////////////////////////////////////////////
 
-
+//Ex1
 calcArea(30, 20);
 function calcArea(w, h) { //w = 30, h = 20
 	var area = w*h;
 	console.log(area);
 }
+
+////////////////////////////////////////////////////
+
+//Ex2 - Returning values
+calcArea(30, 20);
+function calcArea(w, h) { //w = 30, h = 20
+	var area = w*h;
+	return area; //function is spitting the info out
+}
+console.log(area);
+
+////////////////////////////////////////////////////
 
 function dogYears (age){
 	var age = 4;
@@ -36,5 +49,6 @@ function dogYears (age){
 	console.log("Sparky is" +dogYears+ "years old.")
 		
 }
+//passing
 dogYears(4);
 dogYears(5);
