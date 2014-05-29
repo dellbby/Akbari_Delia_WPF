@@ -4,7 +4,7 @@
 //Calculate the Area of a Rectangle
 var victimsWeight = 5; //Weight of animal
 var numberOfStings = 8.666666667; //number of stings per pound
-var stings = victimsWeight * numberOfStings;
+var stings = victimsWeight * numberOfStings; //Weight times Stings
 
 
 function calculateStings(w, s )
@@ -12,4 +12,4 @@ function calculateStings(w, s )
      return w * s;
 }
 
-console.log ("It takes " +stings+ " bee stings to kill a bird.");;
+console.log ("It takes " +stings+ " bee stings to kill a bird.");
