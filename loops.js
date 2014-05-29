@@ -11,6 +11,8 @@ while (b > 0) { //checks the condition
 
 //countdown from 10
 
+
+//do while loops
 console.log('----- Do While Loops-----');
 var c = 10;
 do{
