@@ -53,3 +53,15 @@ function dogYears (age){
 //passing
 dogYears(4);
 dogYears(5);
+
+
+////////////////////////////////////////////////////
+
+//Anonymous Functions
+var functionName = function(){
+//code the function runs	
+	
+}
+functionName (); //function call
+
+
