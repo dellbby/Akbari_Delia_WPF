@@ -58,10 +58,20 @@ dogYears(5);
 ////////////////////////////////////////////////////
 
 //Anonymous Functions
+
 var functionName = function(){
-//code the function runs	
-	
+	//code to run
 }
-functionName (); //function call
+functionName();
+
+var calcArea = function(width, height) {
+	//code function runs
+	var area = width * height;
+	return area;
+}
+var a = calcArea(20, 30); //invoking happens after defineing function
+console.log (a);
+
+
 
 
