@@ -6,9 +6,9 @@ var victimsWeight = 5; //Weight of animal
 var numberOfStings = 8.666666667; //number of stings per pound
 var area = calculateStings(victimsWeight, numberOfStings);
 
-console.log("It takes " +calculateStings+ " bee stings to kill ____ animal.");
+console.log("It takes " +return+ " bee stings to kill a bird.");
 
 function calculateStings(w, s )
 {
-     return w *s;
+     return w * s;
 }
