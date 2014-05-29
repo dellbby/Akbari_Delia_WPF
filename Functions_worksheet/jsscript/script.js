@@ -12,4 +12,4 @@ function calculateStings(w, s )
      return w * s;
 }
 
-console.log ("It takes " +stings+ " bee stings to kill a bird.");
+console.log ("It takes " +stings+ " bee stings to kill a bird."); //print out
