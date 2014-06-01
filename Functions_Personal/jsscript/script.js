@@ -1,15 +1,28 @@
 //JavaScript
-// Delia Akbari - May 28, 2014 - Functions Worksheet
+// Delia Akbari - May 28, 2014 - Functions Worksheet - Personal
 
-//Calculate the Area of a Rectangle
-var victimsWeight = 5; //Weight of animal
-var numberOfStings = 8.666666667; //number of stings per pound
-var stings = victimsWeight * numberOfStings; //Weight times Stings
+//calculating how much gas you need to fill up to reach where you have to go.
+//assuming there is 15 gallons in users tank
 
-//code function runs
-function calculateStings(w, s )
-{
-     return w * s; //storage container and passed in
+var distance = prompt  ("How far is the area you want to go to? (in miles) ");
+var gas = prompt ("How much money do you want to give for gas");
+var tank = prompt (" How much gallons fill up your cars tank?");
+
+var gasprice = 4; //asuming the gas price is 4.00
+var mpg = 30; //asumming the cars mpg is 30
+
+var ca = mpg * tank;
+var milesyourcarcango = ca;
+
+var distanc
+
+
+
+function bob(w,h) {
+	
+	var area= w*h;
+	console.log ("Your car can go" +distance+ "miles and it will cost" $+price+ ");
+	
+	
 }
-
-console.log ("It takes " +stings+ " bee stings to kill a bird."); //print out
+	
