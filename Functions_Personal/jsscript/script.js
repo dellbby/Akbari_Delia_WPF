@@ -1,28 +1,22 @@
 //JavaScript
 // Delia Akbari - May 28, 2014 - Functions Worksheet - Personal
+//normal function with 3 parameters & expression with two arithmetic operators
 
-//calculating how much gas you need to fill up to reach where you have to go.
-//assuming there is 15 gallons in users tank
-
+var gas = prompt("What is the current price of gas");
 var distance = prompt  ("How far is the area you want to go to? (in miles) ");
-var gas = prompt ("How much money do you want to give for gas");
-var tank = prompt (" How much gallons fill up your cars tank?");
-
-var gasprice = 4; //asuming the gas price is 4.00
-var mpg = 30; //asumming the cars mpg is 30
-
-var ca = mpg * tank;
-var milesyourcarcango = ca;
-
-var distanc
+var mpg = prompt (" What is your vehicles mpg rate?");
 
 
+function calcMiles ( gas, distance, mpg) {
 
-function bob(w,h) {
-	
-	var area= w*h;
-	console.log ("Your car can go" +distance+ "miles and it will cost" $+price+ ");
-	
-	
+	var result = (distance / mpg) * gas;
+	return result;
 }
+
+
+	var answer = calcMiles (gas, distance, mpg);
+	
+	console.log ("Your total cost will be $" +answer+ ".00");
+	
+	
 	

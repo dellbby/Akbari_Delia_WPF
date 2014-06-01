@@ -1,29 +1,28 @@
 //JavaScript
 // Delia Akbari - May 28, 2014 - Functions Industry
+//how long they need to work to make the money they need
 
-//Create a variable to hold hours want to work
-var hours = prompt("Please type in how many hours you want to work"); //hours want to work
+var total = prompt ("How much money do you need?");
+var pay = prompt("How much do you make per hour?");
 
-//double check that min was recorded
-console.log(hours);
-
-//validate that the user typed in a number and didnt leave it blank
-//if text string is a number OR equals to nothing
-while(isNaN(hours) || hours === "") {
+var getresponse = function (total, pay) {
+	var result = total / pay; 
+	var hours = prompt("How many hours can you work?") 
 	
-	 //Re-prompting the user for a number
-	 hours = prompt("Please type in a NUMBER");
-	
-	
+	if (result > hours ) {
+		var possible = false;
 	}
-	//prompt for amount want to get paid
-	var amount = prompt("Please type in amount you would want to get paid");
-	
-	
-	//valudate it
-	
-	while(isNaN(amount) || amount === "") {
-	
-	 //Re-prompt the user for a number
-	 amount  = prompt("Please type in a minimum number");
+	else if(result == hours){
+		var possible = true;
 	}
+	else {
+		var possible = true;
+	}
+	
+	var response = (possible) ? 'You will make it in time with the amount you need ' : 'Sorry, you will not make it in time, get another job. '; 
+	return response;
+	
+}
+
+var answer = getresponse(total,pay);
+console.log(answer);
