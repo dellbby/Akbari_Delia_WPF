@@ -10,13 +10,13 @@ var getresponse = function (total, pay) { //
 	var hours = prompt("How many hours can you work?")  //hours user can work
 	
 	if (result > hours ) {
-		var possible = false;
+		var possible = false; //if false
 	}
 	else if(result == hours){
 		var possible = true;
 	}
 	else {
-		var possible = true;
+		var possible = true; //if true
 	}
 	
 	var response = (possible) ? 'You will make it in time with the amount you need ' : 'Sorry, you will not make it in time, get another job. '; //answers if true or false
